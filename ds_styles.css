@@ -81,17 +81,18 @@ z-index: 0;
 }
 
 .name {
-
   position: absolute;
   font-size: 36px;
   font-weight: bold;
-  left: calc(-45%);
-  top: calc(125%);
   font-family: helvetica;
   color: pink;
-
-
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  transform: translate(0, 50%);
 }
+
 
 .sparkle {
 position: absolute;
