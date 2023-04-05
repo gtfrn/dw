@@ -73,11 +73,24 @@ left: 0;
 .line-connector {
 position: absolute;
 width: 5px;
-height: 500%;
+height: 400%;
 background-color: black;
 left: calc(50% - 2.5px);
 top: calc(-300% - 107px);
 z-index: 0;
+}
+
+.name {
+
+  position: absolute;
+  font-size: 36px;
+  font-weight: bold;
+  left: calc(-45%);
+  top: calc(125%);
+  font-family: helvetica;
+  color: pink;
+
+
 }
 
 .sparkle {
